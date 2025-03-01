@@ -1870,8 +1870,8 @@
     "OptionExtractTrickplayImage": "Habilitar la extracción de imágenes de trickplay",
     "LabelExtractTrickplayDuringLibraryScanHelp": "Generar imágenes de trickplay cuando los vídeos se importan durante el escaneo de la biblioteca. De lo contrario se extraerán durante la tarea programada de extracción de imágenes de trickplay. Si la generación es no bloqueante esto no afectará al tiempo que la biblioteca tarda en escanearse.",
     "Author": "Autor",
-    "LibraryScanFanoutConcurrencyHelp": "Numero maximo de tareas de escaneos en librerias paralelas. Marcar esta opcion en 0 escogera un limite basado en la cantidad de nucleos (CPU) en sus sistema. ADVERTENCIA: Marcar este numero demasiado alto puede causar problemas con sistemas de archivos de red; si encuentra problemas baje este numero.",
-    "LibraryScanFanoutConcurrency": "Limite de escaneos de tareas en librerias paralelas",
+    "LibraryScanFanoutConcurrencyHelp": "Número máximo de tareas en paralelo durante los escaneos de la biblioteca. Configurar este valor en 0 seleccionará un límite basado en la cantidad de núcleos de tu sistema. ADVERTENCIA: Configurar un número demasiado alto puede causar problemas con sistemas de archivos en red; si experimentas inconvenientes, reduce este valor.",
+    "LibraryScanFanoutConcurrency": "Límite de tareas de escaneo en paralelo de la biblioteca",
     "Penciller": "Lapicista",
     "PlaylistError.CreateFailed": "Error creando lista de reproduccion",
     "PlaylistError.AddFailed": "Error agregando a lista de reproduccion",
@@ -1995,5 +1995,16 @@
     "DeleteServerConfirmation": "¿Estás seguro de que deseas eliminar este servidor?",
     "LabelDevice": "Dispositivo",
     "LastActive": "Último activo",
-    "LibraryNameInvalid": "El nombre de la biblioteca no puede estar vacío ni contener espacios al principio o al final."
+    "LibraryNameInvalid": "El nombre de la biblioteca no puede estar vacío.",
+    "AutoSubtitleStylingHelp": "Este modo cambiará automáticamente entre los mecanismos de estilo nativo y personalizado de subtítulos basándose en el tipo de su dispositivo.",
+    "LabelQsvDeviceHelp": "Especifica el dispositivo para Intel QSV en un sistema multi-GPU. En Linux, es el nódo de render, ej., /dev/dri/renderD128. En Windows, es el índice del dispositivo empezando desde 0. Déjalo en blanco a menos que sepa lo que está haciendo.",
+    "MediaSegmentType.Recap": "Recapitulación",
+    "PlaylistError.UpdateFailed": "Error actualizando la lista de reproducción",
+    "MediaSegmentAction.None": "Ninguno",
+    "MediaSegmentType.Outro": "Outro",
+    "MoviesAndShows": "Películas y Programas",
+    "CopyLogSuccess": "El contenido del registro se ha copiado satisfactoriamente.",
+    "Retry": "Reintentar",
+    "LogLoadFailure": "Fallo al cargar el archivo de registro. Es posible que siga siendo activamente escrito.",
+    "HeaderMediaSegmentActions": "Acciones del segmento de medios"
 }

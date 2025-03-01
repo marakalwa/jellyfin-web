@@ -188,6 +188,7 @@
     "CopyFailed": "Could not copy",
     "CopyStreamURL": "Copy Stream URL",
     "CopyStreamURLSuccess": "URL copied successfully.",
+    "CopyLogSuccess": "Log contents copied successfully.",
     "CoverArtist": "Cover artist",
     "Creator": "Creator",
     "CriticRating": "Critics rating",
@@ -1015,7 +1016,7 @@
     "LeaveBlankToNotSetAPassword": "You can leave this field blank to set no password.",
     "Letterer": "Letterer",
     "LibraryAccessHelp": "Select the libraries to share with this user. Administrators will be able to edit all folders using the metadata manager.",
-    "LibraryNameInvalid": "Library name cannot be empty or have leading/trailing spaces.",
+    "LibraryNameInvalid": "Library name cannot be empty.",
     "LibraryScanFanoutConcurrency": "Parallel library scan tasks limit",
     "LibraryScanFanoutConcurrencyHelp": "Maximum number of parallel tasks during library scans. Setting this to 0 will choose a limit based on your systems core count. WARNING: Setting this number too high may cause issues with network file systems; if you encounter problems lower this number.",
     "LibraryInvalidItemIdError": "The library is in an invalid state and cannot be edited. You are possibly encountering a bug: the path in the database is not the correct path on the filesystem.",
@@ -1444,6 +1445,7 @@
     "ReplaceAllMetadata": "Replace all metadata",
     "ReplaceExistingImages": "Replace existing images",
     "ReplaceTrickplayImages": "Replace existing trickplay images",
+    "Retry": "Retry",
     "Reset": "Reset",
     "ResetPassword": "Reset Password",
     "ResolutionMatchSource": "Match Source",
@@ -1808,5 +1810,6 @@
     "OptionExtractTrickplayImage": "Enable trickplay image extraction",
     "ExtractTrickplayImagesHelp": "Trickplay images are similar to chapter images, except they span the entire length of the content and are used to show a preview when scrubbing through videos.",
     "LabelExtractTrickplayDuringLibraryScan": "Extract trickplay images during the library scan",
-    "LabelExtractTrickplayDuringLibraryScanHelp": "Generate trickplay images when videos are imported during the library scan. Otherwise, they will be extracted during the trickplay images scheduled task. If generation is set to non-blocking this will not affect the time a library scan takes to complete."
+    "LabelExtractTrickplayDuringLibraryScanHelp": "Generate trickplay images when videos are imported during the library scan. Otherwise, they will be extracted during the trickplay images scheduled task. If generation is set to non-blocking this will not affect the time a library scan takes to complete.",
+    "LogLoadFailure": "Failed to load the log file. It may still be actively written to."
 }
